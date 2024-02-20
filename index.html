@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>coffee<3</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+	.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 8px;
+  background-color:white;
+  box-shadow: 7px 10px 10px pink;
+}
+	@keyframes slideIn {
+        0% {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    h1, h2, h3 {
+        color: #333;
+    }
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        float: center; 
+        margin-left: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+		animation: slideIn 1s ease-out;
+    }
+    th, td {
+        padding: 10px;
+        border-bottom: 1px pink;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .contact-info {
+        margin-bottom: 20px;
+    }
+  .marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  animation: marquee 15s slidein;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(100%, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>COFFEE WITH <3 </h1>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.gNiGdodNdn2Bck61_x18dAHaFi&pid=Api&rs=1&c=1&qlt=95&w=160&h=119">
+        <h2>Our Menu</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>cold coffee</td>
+                <td>$5.50</td>
+            </tr>
+            <tr>
+                <td>Cappuccino</td>
+                <td>$8.50</td>
+            </tr>
+            <tr>
+                <td>cafe Latte</td>
+                <td>$6.50</td>
+            </tr>
+            <tr>
+                <td>irish coffee</td>
+                <td>$7.50</td>
+            </tr>
+        </table>
+        <h2>About Us</h2>
+        <p>Coffee with love is a cozy coffee shop located in the heart of the city. We are passionate about serving the best coffee in town and providing a warm and welcoming atmosphere for our customers.</p>
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+          
+            <li>Address: madhurawada,visakhapatnam, India</li>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: coffeewithlove@gmail.com</li>
+        </ul>
+        <h2>Opening Hours</h2>
+        <p>We are open 7 days a week:</p>
+        <ul>
+            <li>Monday - Friday: 6am - 7pm</li>
+            <li>Saturday - Sunday: 8am - 6pm</li>
+        </ul>
+		 <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+	  <p>Follow us on <a href="https://www.instagram.com/cafelatte" target="_blank">Instagram</a> for updates and promotions!</p></marquee>
+    </div>
+</body>
+</html>
